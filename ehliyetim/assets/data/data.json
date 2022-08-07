@@ -1,0 +1,728 @@
+{
+    "url": "https://ehliyetsinavihazirlik.com/index.php/esinav-ocak-1.html",
+    "quizName": "2022 Ocak Ayı Sınav-1 ",
+    "questionObjects": [
+        {
+            "questionCount": "Soru 1.",
+            "contents": [
+                "Tehlikenin olmadığı kaza yerinde, boyun yaralanması olan yaralı hangi uygulamadan sonra araçtan çıkartılır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Boynuna boyunluk takıldıktan sonra",
+                "B) Boyun hareketleri yaptırıldıktan sonra",
+                "C) Boyun ağrılarını dindirici ilaç verildikten sonra",
+                "D) Boyun bölgesine masaj yapılıp, oturur şekilde"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 2.",
+            "contents": [
+                "Yetişkinlerde temel yaşam desteği uygulamasının 1 turunda yapılan kalp masajı ve suni solunum sayıları hangisinde doğru olarak verilmiştir?",
+                "Kalp masajı - Suni solunum"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A)10       -       1",
+                "B)20       -       1",
+                "C)30       -       2",
+                "D)40       -       2"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 3.",
+            "contents": [
+                "İlk yardım çantasında gazlı bez bulundurmanın amacı nedir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Etrafı temizlemek",
+                "B) Kalp masajında kullanmak",
+                "C) Yaraları kapatmak ve sarmak",
+                "D) Kırıklarda ağrıyı azaltmak"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 4.",
+            "contents": [
+                "Motora yağ nereden konulur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Karter tapasından",
+                "B) Radyatör kapağından",
+                "C) Yağ çubuğu deliğinden",
+                "D) Supap (Külbütör) kapağından"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 5.",
+            "contents": [
+                "Araç hareket hâlinde iken ayağın debriyaj (kavramA) pedalının üzerinde devamlı durması hâlinde aşağıdakilerden hangisi olur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Araç daha hızlı gider.",
+                "B) Lâstikler aşınır.",
+                "C) Debriyaj (kavramA) balatası aşınır.",
+                "D) Vites kutusu (şanzıman) aşınır."
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 6.",
+            "contents": [
+                "Sürücüler, geceleri yakın ilerisi görülmeyen kavşak, dönemeç ve tepe üstlerine yaklaşırken gelişlerini nasıl haber vermek zorundadır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Dönüş ışıklarını yakarak",
+                "B) Birkaç defa korna çalarak",
+                "C) Acil uyarı ışıklarını yakarak",
+                "D) Yakın ve uzağı gösteren ışıkları art arda ve sıra ile yakarak"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 7.",
+            "contents": [
+                "Motor yağının zamanında değiştirilmemesi aşağıdakilerden hangisine neden olur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Motorun verimli çalışmasına",
+                "B) Aracın daha yavaş gitmesine",
+                "C) Akünün daha çabuk bitmesine",
+                "D) Motordaki aşıntıların artmasına"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 8.",
+            "contents": [
+                "I. Maddi hasar tespiti yapmak",
+                "II. Olayı en yakın zabıta veya sağlık kuruluşuna bildirmek",
+                "III. Kaza yerinde usulüne uygun ilk yardım tedbirlerini almak",
+                "IV. Yetkililerin isteği hâlinde yaralıları en yakın sağlık kuruluşuna götürmek",
+                "Kazaya karışan veya olay yerinden geçmekte olan kişiler yukarıdakilerden hangilerini yapmakla yükümlüdürler?"
+            ],
+            "questionBodyIndexIncontents": 4,
+            "answers": [
+                "A) Yalnız III",
+                "B) I, II ve IV.",
+                "C) I, III ve IV.",
+                "D) II, III ve IV."
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 9.",
+            "contents": [
+                "B sınıfı sürücü belgesine sahip bir sürücünün kullanabileceği diğer sürücü belgesi sınıfı aşağıdakilerden hangisidir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) A2 ",
+                "B) E ",
+                "C) F ",
+                "D) G"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 10.",
+            "contents": [
+                "Araçlarda emniyet kemeri kullanımının zorunlu olması ile aşağıdakilerden hangisi hedeflenmektedir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Denetimlerde herhangi bir sorun yaşanmaması",
+                "B) Kaza anında ölüm ve yaralanmaların en aza indirilmesi",
+                "C) Sürücülerin dikkatinin artırılması",
+                "D) Kazaların önlenmesi"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 11.",
+            "contents": [
+                "Aracın gösterge panelinde bulunan şekildeki gösterge, sürücüye neyi bildirir?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav10/soru92.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Motor yağ basıncını",
+                "B) Fren hidrolik seviyesini",
+                "C) Depodaki yakıt miktarını",
+                "D) Motor soğutma suyu sıcaklığını"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 12.",
+            "contents": [
+                "Bir sürücünün trafik içindeki istenmeyen durumlara öfkelenmesi ve bu öfkeyi belli etmesi yerine, hangi davranışı göstermesi hâlinde çok daha huzurlu bir trafik ortamı oluşur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Hoşgörülü olması",
+                "B) Bencil davranması",
+                "C) Aşırı stres yapması",
+                "D) Sürekli kornaya basması"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 13.",
+            "contents": [
+                "Şekildeki aracın yoluna devam edebilmesi için, ışıklı trafik işaret cihazında yanan ışığın rengi ne olmalıdır?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav3/soru36.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Sarı",
+                "B) Yeşil",
+                "C) Kırmızı",
+                "D) Kırmızı ile birlikte sarı"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 14.",
+            "contents": [
+                "Kazazedeyi araçtan çıkarırken aşağıdakilerden hangisine dikkat edilmelidir? "
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Kollarının baş hizasında durmasına",
+                "B) Baş tarafından çekilerek çıkarılmasına",
+                "C) Ayak tarafından çekilerek çıkarılmasına",
+                "D) Baş-boyun-gövde hizasının bozulmamasına"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 15.",
+            "contents": [
+                "Resimde görülen manevra, hangi amaçla uygulanır?",
+                "img:https://ehliyetsinavihazirlik.com/images/13subat/soru4.jpg"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Kanamanın durdurulması için",
+                "B) Dolaşımın değerlendirilmesi için",
+                "C) Kemik kırıklarının tespit edilmesi için",
+                "D) Yabancı cisim tıkanmalarında solunum yolunu açmak için"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 16.",
+            "contents": [
+                "Şekildeki trafik işareti aşağıdakilerden hangisine yaklaşıldığını bildirir?",
+                "img:https://ehliyetsinavihazirlik.com/images/deneme5/16.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) EDS'ye",
+                "B) Alt geçide",
+                "C) Karavanlı park yerine",
+                "D) Gençlik kampına"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 17.",
+            "contents": [
+                "Kara yollarında gerekli düzenleme ve işaretlemeleri aşağıdakilerden hangisi yapar?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Emniyet Genel Müdürlüğü",
+                "B) Karayolları Genel Müdürlüğü",
+                "C) Trafik Kazalarını Önleme Derneği",
+                "D) Bilim, Sanayi ve Teknoloji Bakanlığı"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 18.",
+            "contents": [
+                "Aşağıdakilerden hangisi çıkığın tanımıdır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Eklem bağları ve yüzeylerinin zedelenmesi",
+                "B) Eklem çevresindeki derinin zedelenmesi",
+                "C) Eklem yüzeylerinin birbirinden ayrılması",
+                "D) Eklem bağlarının kopması"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 19.",
+            "contents": [
+                "Aşağıdakilerden hangisi solunum durmasının nedenlerinden biri değildir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Suda boğulma",
+                "B) Birinci derece yanıklar",
+                "C) Zehirli gazların solunması",
+                "D) Solunum yolunun tıkanması"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 20.",
+            "contents": [
+                "Hangi tür araçlarda emniyet kemeri bulundurulması ve kullanılması zorunlu değildir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Minibüslerde",
+                "B) Otomobillerde",
+                "C) Lâstik Tekerlekli Traktörlerde",
+                "D) Tescilde otomobil gibi işlem gören arazi taşıtlarında"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 21.",
+            "contents": [
+                "Şekildeki araç sürücüsü kavşaktan sağa dönüş yapmak için hangi şeridi izlemelidir?",
+                "img:https://ehliyetsinavihazirlik.com/images/sorular/8subat2014ehliyetsorulari/soru30.jpg"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) İstediği şeridi",
+                "B) 1 numaralı şeridi",
+                "C) 2 numaralı şeridi",
+                "D) 3 numaralı şeridi"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 22.",
+            "contents": [
+                "Egzoz gazı zehirlenmesi aşağıdaki yollardan hangisi ile olur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Boşaltım yolu",
+                "B) Dolaşım yolu",
+                "C) Sindirim yolu",
+                "D) Solunum yolu"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 23.",
+            "contents": [
+                "Araç üzerinde bir elektrikli alıcı çalışmadığında ilk bakılacak yer aşağıdakilerden hangisi olmalıdır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Motordaki yağ seviyesi",
+                "B) Ateşleme sistemindeki ilgili buji",
+                "C) Sigorta panelindeki ilgili sigorta",
+                "D) Yakıt deposundaki yakıt seviyesi"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 24.",
+            "contents": [
+                "Aşağıdakilerden hangisi kasisli yol işaretidir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "img:https://ehliyetsinavihazirlik.com/images/17aralik2016/17a.gif",
+                "img:https://ehliyetsinavihazirlik.com/images/17aralik2016/17b.gif",
+                "img:https://ehliyetsinavihazirlik.com/images/17aralik2016/17c.gif",
+                "img:https://ehliyetsinavihazirlik.com/images/17aralik2016/17d.gif"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 25.",
+            "contents": [
+                "Aşağıdakilerden hangisi motorun parçası değildir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Aks ",
+                "B) Supap",
+                "C) Piston ",
+                "D) Krank mili"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 26.",
+            "contents": [
+                "Trafik işaret levhaları ile belirlenmiş yaya ve okul geçitlerine yaklaşan sürücülerin aşağıdakilerden hangisini yapmaları yanlıştır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Yavaşlamaları",
+                "B) Hızlarını artırmaları",
+                "C) Yayalara ilk geçiş hakkını vermeleri",
+                "D) Okul geçidi görevlisinin talimatlarına uymaları"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 27.",
+            "contents": [
+                "Aşağıdakilerden hangisi \"güvenli sürücülük\" için olumsuz etkiye neden olmaz?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Öfke",
+                "B) Saldırgan sürücülük",
+                "C) Sabırsızlık",
+                "D) Sakin olmak"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 28.",
+            "contents": [
+                "I. Damar ve sinir sıkışmasına",
+                "II. Çıkığın sık sık tekrar etmesine",
+                "III. Eklem bağlarının düzelmeyecek ölçüde tahrip olmasına",
+                "Çıkmış kemiğin uzman olmayan kişilerce eklem boşluğuna konulmaya çalışılması, yukarıda verilenlerden hangilerine neden olabilir?"
+            ],
+            "questionBodyIndexIncontents": 1,
+            "answers": [
+                "A) Yalnız I",
+                "B) I ve II",
+                "C) II ve III",
+                "D) I, II ve III"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 29.",
+            "contents": [
+                "Motor bloğundaki su kanallarında paslanma ve kireçlenme olmuşsa aşağıdakilerden hangisi meydana gelebilir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Motorun yağ yakması",
+                "B) Motorun çalışmaması",
+                "C) Motorun fazla ısınması",
+                "D) Motorun zengin karışımla çalışması"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 30.",
+            "contents": [
+                "Çocuklarda yapılan temel yaşam desteği uygulamasında, göğüs kemiği kaç cm aşağı inecek şekilde kalp basısı uygulanır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) 2 ",
+                "B) 5 ",
+                "C) 8 ",
+                "D) 11"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 31.",
+            "contents": [
+                "Ülkemizde, her yıl yaklaşık olarak beş bin kişinin hayatını kaybettiği ve bu rakamın iki katı kadar da yaralanma olayının gerçekleştiği trafik kazalarının önünün kesilmesindeki en büyük etken aşağıdakilerden hangisidir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Otomotiv sanayisindeki gelişmelerin takip edilmesi ",
+                "B) Bireylerde trafik kültürü ve bilincinin oluşturulması ",
+                "C) Trafik suçlarına uygulanan cezaların artırılması ",
+                "D) Taşıt bakımlarının zamanında yaptırılması"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 32.",
+            "contents": [
+                "Aşağıdakilerden hangisi motor soğutma suyunun azalmasına sebep olur?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Kalorifer hortumlarının su sızdırması",
+                "B) Hararet göstergesinin arızalanması",
+                "C) Vantilatör kayışının gergin olması",
+                "D) Debriyajın kaçırması"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 33.",
+            "contents": [
+                "Şekle göre 2 nolu araç sürücüsü ne yapmalıdır?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav7/soru50.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Hızını artırmalı",
+                "B) U dönüşü yapmalı",
+                "C) 1 nolu araca yol vermeli",
+                "D) 1 nolu aracı ikaz ederek durdurmalı"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 34.",
+            "contents": [
+                "Aşağıdakilerden hangisi motora ilk hareketi verir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                " Konjektör ",
+                " Marş motoru",
+                " Alternatör",
+                " Şarj dinamosu"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 35.",
+            "contents": [
+                "Aşağıdaki durumların hangisinde aracın kurallara uygun olarak durdurulması ve kontağın kapatılması gerekir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Gösterge panelinde cam rezistans lambasının yanması",
+                "B) Araçtan yanık kablo kokusunun gelmesi",
+                "C) Klimanın yeteri kadar serinletmemesi",
+                "D) Araç yakıtının azalması"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 36.",
+            "contents": [
+                "Şekildeki trafik işaretini gören sürücü, aşağıdakilerden hangilerini yapmalıdır?",
+                "img:https://ehliyetsinavihazirlik.com/images/banners/soru21.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A)Yalnız I",
+                "B)I ve II",
+                "C)II ve III",
+                "D)I, II ve III"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 37.",
+            "contents": [
+                "Araçta, aşağıdakilerden hangisinin kullanılması yağışlı havalarda kaza riskini artırır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Tam şarjlı akü",
+                "B) Uzun yakıt boruları",
+                "C) Antifrizli soğutma suyu",
+                "D) Eski ve aşınmış lastikler"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 38.",
+            "contents": [
+                "Yaralanmaya bağlı meydana gelen dış kanamada ilk yardım olarak aşağıdakilerden hangisinin yapılması sakıncalıdır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Kanama bölgesine kan taşıyan ana damarlara baskı uygulanması",
+                "B) Kanayan yer üzerine temiz bir bezle bastırılması",
+                "C) Bölgenin kalp seviyesinden yukarıda tutulması",
+                "D) Yara bölgesine sıcak uygulama yapılması"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 39.",
+            "contents": [
+                "Aşağıdakilerden hangisi, kişiye bağlı gelişen trafik kazası nedenlerinden biri değildir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Alkol ve madde bağımlılığı",
+                "B) Uzun yolculuklar ve yorgunluk",
+                "C) Tehlikeye atılmaya hazır kişilik yapısı",
+                "D) Olumsuz hava şartları ve yolların bozuk olması"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 40.",
+            "contents": [
+                "Kazazedeyi araçtan çıkarırken dikkat edilmesi gereken en önemli şey nedir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Dilini ısırmış olabileceği",
+                "B) Eğer varsa ağzında bulunan takma dişlerin soluk borusunu tıkamış olabileceği",
+                "C) Yumuşak bir zemine yatırılması gerektiği",
+                "D) Omurgasında kırık olabileceği"
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 41.",
+            "contents": [
+                "Aşağıdakilerden hangisi elektrik çarpmasının vücuttaki etkilerinden biri değildir? "
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Solunumun durması",
+                "B) İshal veya kabızlık oluşması",
+                "C) Akımın girip çıktığı yerde yanık oluşması",
+                "D) Kalbin durması veya atımının düzensiz olması"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 42.",
+            "contents": [
+                "Resimde görülen seyir hâlindeki aracın arkasındaki kırmızı lambaların yanması, trafikteki diğer sürücülere aşağıdakilerden hangisini bildirir?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav15/soru97.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Aracın sola döneceğini",
+                "B) Aracın sağa döneceğini",
+                "C) Araçta frenleme yapıldığını",
+                "D) Aracın geri gelmekte olduğunu"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 43.",
+            "contents": [
+                "Taşıtlardaki emniyet kemerinin kullanılması konusunda Cem, Gülnur ve Alper aşağıdaki gibi düşünmektedirler.",
+                "Buna göre hangisinin düşüncesi doğrudur?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav12/soru69.gif"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Cem’in ",
+                "B) Gülnur’un",
+                "C) Alper’in ",
+                "D) Cem ve Gülnur’un"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 44.",
+            "contents": [
+                "Park hâlindeki araca çarpan sürücünün aşağıdakilerden hangisini yapması yanlıştır?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Aracın sahibini bulamaz ise yazılı bilgi bırakması",
+                "B) Zarar fazla değilse olay yerinden uzaklaşması",
+                "C) Zarar verdiği aracın sahibini bulması",
+                "D) Trafik görevlisine haber vermesi"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 45.",
+            "contents": [
+                "I - Sızıntı biçiminde ve hafif olması",
+                "II - Koyu renkli ve taşma tarzında akması",
+                "III - Kalp atımına uyumlu şekilde fışkırarak çıkması",
+                "Verilenlerden hangileri atardamar kanamalarına ait bir özelliktir?"
+            ],
+            "questionBodyIndexIncontents": 1,
+            "answers": [
+                "A) Yalnız I",
+                "B) Yalnız II",
+                "C) Yalnız III",
+                "D) I, II ve III"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 46.",
+            "contents": [
+                "Şekildeki trafik işareti görülünce ne yapılır?",
+                "img:https://ehliyetsinavihazirlik.com/images/10sinav17/soru39.png"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Hız sabit tutulur.",
+                "B) Hız azaltılır, sola sinyal verilir.",
+                "C) Hız artırılır, sağa sinyal verilir.",
+                "D) Hız azaltılır, geçme yasağına uyulur."
+            ],
+            "correctAnswer": "D"
+        },
+        {
+            "questionCount": "Soru 47.",
+            "contents": [
+                "Kara yolu ile demir yolunun aynı seviyede kesiştiği bariyerli veya bariyersiz geçitlere ne ad verilir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Okul geçidi",
+                "B) Yaya geçidi",
+                "C) Hemzemin geçit",
+                "D) Rampalı geçit"
+            ],
+            "correctAnswer": "C"
+        },
+        {
+            "questionCount": "Soru 48.",
+            "contents": [
+                "Aksine bir işaret bulunmadıkça yerleşim yeri dışındaki bölünmüş yollarda otomobiller için azami hız saatte kaç kilometredir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) 130 ",
+                "B) 110 ",
+                "C) 100 ",
+                "D) 90"
+            ],
+            "correctAnswer": "B"
+        },
+        {
+            "questionCount": "Soru 49.",
+            "contents": [
+                "Aşağıdakilerden hangisi, durmuş olan dolaşım ve solunum sistemini yeniden çalışır hâle getirmek için uygulanan yöntemler bütünüdür?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Kalp masajı",
+                "B) Atelle tespit",
+                "C) Köprü tekniği",
+                "D) Rentek manevrası"
+            ],
+            "correctAnswer": "A"
+        },
+        {
+            "questionCount": "Soru 50.",
+            "contents": [
+                "Aracın park lambalarından birinin yanıp diğerinin yanmamasının sebebi aşağıdakilerden hangisidir?"
+            ],
+            "questionBodyIndexIncontents": 0,
+            "answers": [
+                "A) Bujiler arızalıdır.",
+                "B) Alternatör arızalıdır.",
+                "C) Endüksiyon bobini arızalıdır.",
+                "D) Yanmayan lambanın flamanı kopmuştur."
+            ],
+            "correctAnswer": "D"
+        }
+    ]
+}
