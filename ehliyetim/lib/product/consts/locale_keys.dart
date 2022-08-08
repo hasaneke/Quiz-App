@@ -1,5 +1,6 @@
 abstract class LocaleKeys {
   static String myLicense = "Ehliyetim";
+  static String testName = "Test Adı: 2022 Ocak Ayı Sınavı - 1";
   static String beAware = "Dikkat";
   static String question = 'Bu testi bitirmek istediğinize emin misiniz?';
   static String yes = "Evet";

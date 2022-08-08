@@ -9,6 +9,7 @@ class QuizState extends Equatable {
       this.correctsCount = 0,
       this.wrongCounts = 0,
       this.timerCount = 0});
+
   final List<QuestionModel> questions;
   final QuizStatus quizStatus;
   final int answeredCounts;
@@ -17,7 +18,8 @@ class QuizState extends Equatable {
   final int currentIndex;
   final int timerCount;
   @override
-  List<Object?> get props => [currentIndex, answeredCounts, quizStatus, questions, correctsCount, wrongCounts, timerCount];
+  List<Object?> get props =>
+      [currentIndex, answeredCounts, quizStatus, questions, correctsCount, wrongCounts, timerCount];
 
   QuizState copyWith(
       {List<QuestionModel>? questions,

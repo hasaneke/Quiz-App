@@ -114,7 +114,7 @@ class _ResultSheet extends StatelessWidget {
                 const Icon(Icons.map),
                 context.emptySizedWidthBoxLow3x,
                 Text(
-                  'Test Adı: 2022 Ocak Ayı Sınavı - 1',
+                  LocaleKeys.testName,
                   style: context.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
                 )
               ],
