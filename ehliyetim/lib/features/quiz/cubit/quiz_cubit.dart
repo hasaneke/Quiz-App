@@ -9,6 +9,7 @@ part 'quiz_state.dart';
 
 class QuizCubit extends Cubit<QuizState> {
   final IQuizService quizService;
+  late final Timer _timer;
   QuizCubit(this.quizService) : super(const QuizState()) {
     initialize();
   }
@@ -25,16 +26,34 @@ class QuizCubit extends Cubit<QuizState> {
     emit(state.copyWith(currentIndex: i));
   }
 
-  Future<void> _startTimer() async {
-    Timer.periodic(const Duration(seconds: 1), (timer) {
-      emit(state.copyWith(timer: state.timer + 1));
+  void _startTimer() async {
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      emit(state.copyWith(timer: state.timerCount + 1));
     });
   }
 
-  bool revealAnswers(int i) {
-    if (state.questions[state.currentIndex].answers?[i] == state.questions[state.currentIndex].correctAnswer) {
-      return true;
+  void stopTimer() async {
+    _timer.cancel();
+  }
+
+  void revealAnswer(int i) {
+    final option = state.questions[state.currentIndex].answers?[i];
+    if (option?.substring(0, 1) == state.questions[state.currentIndex].correctAnswer) {
+      emit(state.copyWith(correctsCount: state.correctsCount + 1));
+    } else {
+      emit(state.copyWith(wrongCounts: state.wrongCounts + 1));
     }
-    return false;
+    _updateTheList(i);
+  }
+
+  void _updateTheList(int i) {
+    emit(state.copyWith(
+        questions: state.questions.map((e) {
+      if (state.questions[state.currentIndex].questionCount == e.questionCount) {
+        return e.copyWith(isAnswered: true, pickedAnswerIndex: i);
+      } else {
+        return e;
+      }
+    }).toList()));
   }
 }

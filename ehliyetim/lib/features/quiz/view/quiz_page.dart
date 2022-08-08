@@ -1,10 +1,14 @@
 import 'package:ehliyetim/features/quiz/cubit/quiz_cubit.dart';
+import 'package:ehliyetim/features/quiz/data/model/question_model.dart';
 import 'package:ehliyetim/features/quiz/data/model/service/quiz_service.dart';
-import 'package:ehliyetim/features/quiz/view/widgets/icon_test_item.dart';
+import 'package:ehliyetim/features/quiz/view/widgets/finish_test_dialog.dart';
+import 'package:ehliyetim/features/quiz/view/widgets/icon_text_item.dart';
 import 'package:ehliyetim/features/quiz/view/widgets/question_card.dart';
 import 'package:ehliyetim/features/quiz/view/widgets/styles_container.dart';
+import 'package:ehliyetim/product/consts/locale_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kartal/kartal.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({Key? key}) : super(key: key);
@@ -38,11 +42,10 @@ class _QuizView extends StatefulWidget {
 
 class _QuizViewState extends State<_QuizView> {
   late final PageController _pageController = PageController();
-  late ThemeData _themeContext;
   @override
-  void didChangeDependencies() {
-    _themeContext = Theme.of(context);
-    super.didChangeDependencies();
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
   }
 
   @override
@@ -50,100 +53,124 @@ class _QuizViewState extends State<_QuizView> {
     return BlocBuilder<QuizCubit, QuizState>(
       builder: (context, state) {
         return Scaffold(
-            appBar: _appBar(context),
+            appBar: _appBar(context, state),
+            floatingActionButton: state.currentIndex == 0
+                ? Icon(
+                    Icons.keyboard_arrow_right_outlined,
+                    size: context.dynamicHeight(.07),
+                  )
+                : Container(),
             body: Column(
-              children: [
-                _topView(),
-                Expanded(
-                    child: PageView.builder(
-                  controller: _pageController,
-                  onPageChanged: (i) => context.read<QuizCubit>().updatePageIndex(i),
-                  itemCount: state.questions.length,
-                  itemBuilder: (_, i) => QuestionCard(
-                    questionModel: state.questions[i],
-                  ),
-                ))
-              ],
+              children: [_topView(), _body(state.questions)],
             ));
       },
     );
+  }
+
+  Expanded _body(List<QuestionModel> questions) {
+    return Expanded(
+        child: PageView.builder(
+      scrollDirection: Axis.horizontal,
+      controller: _pageController,
+      onPageChanged: (i) => context.read<QuizCubit>().updatePageIndex(i),
+      itemCount: questions.length,
+      itemBuilder: (_, i) => QuestionCard(
+        questionModel: questions[i],
+      ),
+    ));
   }
 
   Widget _topView() {
     return BlocBuilder<QuizCubit, QuizState>(
       builder: (context, state) {
         return StyledContainer(
+          context: context,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              BlocSelector<QuizCubit, QuizState, int>(
-                selector: (state) {
-                  return state.timer;
-                },
-                builder: (context, state) {
-                  return IconTextRow(
-                    icon: const Icon(Icons.timer_outlined),
-                    text: '$state',
-                  );
-                },
-              ),
-              _correctWrong(),
-              IconTextRow(
-                icon: const Icon(Icons.contact_support),
-                text: '${state.currentIndex + 1} / ${state.questions.length}',
-              )
-            ],
+            children: [_timerView(), _correctWrongView(), _answeredQuestionsView(state)],
           ),
         );
       },
     );
   }
 
-  Row _correctWrong() {
-    return Row(
-      children: const [
-        IconTextRow(
-          icon: Icon(
-            Icons.check_circle,
-            color: Colors.green,
-          ),
-          text: '0',
-        ),
-        SizedBox(
-          width: 5,
-        ),
-        IconTextRow(
-          icon: Icon(
-            Icons.cancel,
-            color: Colors.red,
-          ),
-          text: '0',
-        )
-      ],
+  IconTextRow _answeredQuestionsView(QuizState state) {
+    return IconTextRow(
+      icon: const Icon(Icons.contact_support),
+      text: '${state.currentIndex + 1} / ${state.questions.length}',
     );
   }
 
-  AppBar _appBar(BuildContext context) {
+  BlocSelector<QuizCubit, QuizState, int> _timerView() {
+    return BlocSelector<QuizCubit, QuizState, int>(
+      selector: (state) {
+        return state.timerCount;
+      },
+      builder: (context, state) {
+        return IconTextRow(
+          icon: const Icon(Icons.timer_outlined),
+          text: '$state',
+        );
+      },
+    );
+  }
+
+  Widget _correctWrongView() {
+    return BlocBuilder<QuizCubit, QuizState>(
+      builder: (context, state) {
+        return Row(
+          children: [
+            IconTextRow(
+              icon: Icon(
+                Icons.check_circle,
+                color: context.appTheme.colorScheme.onTertiary,
+              ),
+              text: '${state.correctsCount}',
+            ),
+            const SizedBox(
+              width: 5,
+            ),
+            IconTextRow(
+              icon: Icon(
+                Icons.cancel,
+                color: context.appTheme.errorColor,
+              ),
+              text: '${state.wrongCounts}',
+            )
+          ],
+        );
+      },
+    );
+  }
+
+  AppBar _appBar(BuildContext context, QuizState state) {
     return AppBar(
       leading: const Icon(Icons.arrow_back_ios),
       title: Column(
         children: [
           Icon(
             Icons.car_repair_outlined,
-            color: _themeContext.iconTheme.color,
+            color: context.appTheme.iconTheme.color,
           ),
           Text(
-            'Ehliyetim',
+            LocaleKeys.myLicense,
             style: Theme.of(context).textTheme.subtitle2?.copyWith(fontWeight: FontWeight.bold),
           ),
         ],
       ),
       actions: [
         TextButton(
-          onPressed: () {},
+          onPressed: () {
+            context.read<QuizCubit>().stopTimer();
+            showDialog(
+                context: context,
+                builder: (_) => FinishDialog(
+                      state: state,
+                    ));
+          },
           child: Text(
-            'Testi Bitir',
-            style: _themeContext.textTheme.subtitle2?.copyWith(color: _themeContext.iconTheme.color),
+            LocaleKeys.finishTest,
+            style: context.appTheme.textTheme.subtitle2?.copyWith(color: context.appTheme.iconTheme.color),
           ),
         )
       ],

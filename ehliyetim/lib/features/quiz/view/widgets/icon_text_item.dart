@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kartal/kartal.dart';
 
 class IconTextRow extends StatelessWidget {
   final Icon icon;
@@ -12,13 +13,7 @@ class IconTextRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [
-        icon,
-        const SizedBox(
-          width: 2,
-        ),
-        Text(text)
-      ],
+      children: [icon, context.emptySizedHeightBoxLow3x, Text(text)],
     );
   }
 }

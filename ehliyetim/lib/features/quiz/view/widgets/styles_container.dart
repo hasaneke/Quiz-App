@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:kartal/kartal.dart';
 
-class StyledContainer extends StatelessWidget {
-  final Widget child;
-  const StyledContainer({required this.child});
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(8)),
-        margin: const EdgeInsets.symmetric(horizontal: 10) + const EdgeInsets.only(top: 15),
-        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10),
-        child: child);
-  }
+class StyledContainer extends Container {
+  StyledContainer({
+    required BuildContext context,
+    required Widget child,
+  }) : super(
+            width: MediaQuery.of(context).size.width,
+            decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(8)),
+            margin: context.horizontalPaddingNormal + context.onlyTopPaddingNormal,
+            padding: context.paddingNormal,
+            child: child);
 }

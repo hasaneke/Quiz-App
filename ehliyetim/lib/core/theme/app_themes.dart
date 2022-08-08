@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class AppThemes {
   static final purpleTheme = ThemeData.light().copyWith(
+      colorScheme: const ColorScheme.light(onTertiary: Colors.green),
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(textStyle: const TextStyle(color: AppColors.iconColor)),
       ),
