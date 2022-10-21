@@ -1,4 +1,4 @@
-# ehliyetim-app
+# quiz-app
 
 License quiz app
 
